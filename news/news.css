@@ -26,22 +26,36 @@ header {
   padding-top: 39px;
 }
 .osnova {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding-top: 62px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 62px;
 }
 .frame {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 38px;
 }
 .numbers {
   font-size: 20px;
   padding-top: 50px;
   color: black;
   display: flex;
+}
+.text {
+	width: 400px;
+}
+.data1 {
+  padding-bottom: 24px;
+}
+.link1 {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+.supreme2 {
+  font-size: 25px;
 }
 .buttons {
   display: flex;
@@ -56,23 +70,9 @@ header {
   color: black;
 }
 .link:hover {
-	color: white;
-	background-color: red;
-	transition: linear 0.2s;
-}
-.text {
-	width: 400px;
-}
-.data1 {
-	padding-bottom: 24px;
-}
-.link1 {
-  text-decoration: none;
   color: white;
   background-color: red;
-}
-.supreme2 {
-	font-size: 25px;
+  transition: linear 0.2s;
 }
 @media (max-width: 390px) {
 	.text {
