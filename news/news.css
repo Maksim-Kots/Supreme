@@ -69,16 +69,15 @@ header {
 .data1 {
 	padding-bottom: 24px;
 }
-.archive {
-	width: 86px;
-	padding-top: 20px;
-}
+
 .link1 {
   text-decoration: none;
   color: white;
   background-color: red;
 }
-
+.supreme2 {
+	font-size: 25px;
+}
 @media (max-width: 390px) {
 	.text {
 		transform: scale(0.8);
