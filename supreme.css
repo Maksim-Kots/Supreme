@@ -45,6 +45,11 @@
   color: white;
   font-size: 20px;
 }
+.link:hover {
+  color: white;
+  background-color: red;
+  transition: linear 0.2s;
+}
 .social-networks {
   padding-top: 91px;
   display: flex;
@@ -54,9 +59,4 @@
   display: flex;
   justify-content: space-around;
   width: 198px;
-}
-.link:hover {
-  color: white;
-  background-color: red;
-  transition: linear 0.2s;
 }
